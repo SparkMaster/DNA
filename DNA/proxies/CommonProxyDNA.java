@@ -1,4 +1,4 @@
-package DNA;
+package DNA.proxies;
 
 public class CommonProxyDNA 
 {

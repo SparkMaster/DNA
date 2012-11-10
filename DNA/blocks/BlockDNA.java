@@ -1,14 +1,14 @@
-package DNA;
+package DNA.blocks;
 
 import net.minecraft.src.Block;
 import net.minecraft.src.CreativeTabs;
-import net.minecraft.src.Material;
+import DNA.helpers.MaterialHelper;
 
 public class BlockDNA extends Block
 {
 	public BlockDNA(int id, int texture)
 	{
-		super(id, texture, DNA.cell);
+		super(id, texture, MaterialHelper.cell);
 		this.setCreativeTab(CreativeTabs.tabBlock);
 	}
 }
