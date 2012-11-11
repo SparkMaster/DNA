@@ -13,7 +13,7 @@ public class ItemDropHelper {
 			rand = Math.random();
 
 			if (rand < 0.15d) {
-				entity.dropItem(ItemHelper.dnaStrand.shiftedIndex, 2);
+				entity.dropItem(ModItems.dnaStrand.shiftedIndex, 2);
 			}
 		}
 	}

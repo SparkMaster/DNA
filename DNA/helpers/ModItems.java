@@ -6,13 +6,13 @@ import DNA.items.ItemStrand;
 import cpw.mods.fml.common.Mod.Init;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 
-public class ItemHelper 
+public class ModItems 
 {
 	public static Item dnaStrand;
 	public static Item dnaCell;
 	
 	@Init
-	public static void initItems()
+	public static void init()
 	{
 		dnaStrand = new ItemStrand(16000).setItemName("dnaStrand");
 		dnaCell = new ItemCell(16001).setItemName("dnaCell");
