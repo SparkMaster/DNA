@@ -23,7 +23,7 @@ import net.minecraftforge.client.EnumHelperClient;
 public class ClientProxyDNA extends CommonProxyDNA
 {
 	@Override
-	public void registerRenderThings()
+	public void initRenderingAndTextures()
 	{
 		
 	}

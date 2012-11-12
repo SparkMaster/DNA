@@ -41,6 +41,27 @@ public class ConfigurationHandler {
             BlockIds.microscope = configuration
             		.getBlock(Strings.microscope, BlockIds.microscope_Default)
             		.getInt(BlockIds.microscope_Default);
+            BlockIds.lithium = configuration
+            		.getBlock(Strings.LITHIUM_ORE,  BlockIds.lithium_Default)
+            		.getInt(BlockIds.lithium_Default);
+            BlockIds.sodium = configuration
+            		.getBlock(Strings.SODIUM_ORE, BlockIds.sodium_Default)
+            		.getInt(BlockIds.sodium_Default);
+            BlockIds.radium = configuration
+            		.getBlock(Strings.RADIUM_ORE, BlockIds.radium_Default)
+            		.getInt(BlockIds.radium_Default);
+            BlockIds.technetium = configuration
+            		.getBlock(Strings.TECHNETIUM_ORE, BlockIds.technetium_Default)
+            		.getInt(BlockIds.technetium_Default);
+            BlockIds.titanium = configuration
+            		.getBlock(Strings.TITANIUM_ORE, BlockIds.titanium_Default)
+            		.getInt(BlockIds.titanium_Default);
+            BlockIds.platinum = configuration
+            		.getBlock(Strings.PLATINUM_ORE, BlockIds.platinum_Default)
+            		.getInt(BlockIds.platinum_Default);
+            BlockIds.mercury = configuration
+            		.getBlock(Strings.MERCURY_ORE, BlockIds.mercury_Default)
+            		.getInt(BlockIds.mercury_Default);
             
             /* Item Configs */
             ItemIds.dnaStrand = configuration

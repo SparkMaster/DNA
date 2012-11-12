@@ -1,7 +1,7 @@
 package dna_common.dna.common.item;
 
-import net.minecraft.src.CreativeTabs;
 import net.minecraft.src.Item;
+import dna_common.dna.common.DNA;
 
 public class ItemStrand extends Item
 {
@@ -9,6 +9,6 @@ public class ItemStrand extends Item
 	{
 		super(i);
 		maxStackSize = 12;
-		this.setCreativeTab(CreativeTabs.tabMaterials);
+		this.setCreativeTab(DNA.tabsDNA);
 	}
 }
