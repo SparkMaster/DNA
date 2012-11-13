@@ -29,8 +29,15 @@ public class Strings
     public static final String LITHIUM_INGOT = "lithium_ingot";
     public static final String SODIUM_INGOT = "sodium_ingot";
     public static final String RADIUM_INGOT = "radium_ingot";
+    public static final String RADIUM_DUST = "radium_dust";
     public static final String TECHNETIUM_INGOT = "technetium_ingot";
     public static final String TITANIUM_INGOT = "titanium_ingot";
+    public static final String TITANIUM_DUST = "titanium_dust";
     public static final String PLATINUM_INGOT = "platinum_ingot";
+    public static final String PLATINUM_DUST = "platinum_dust";
     public static final String MERCURY_INGOT = "mercury_ingot";
+    public static final String MERCURY_LIQUID = "mercury_liquid";
+    
+    /* Tool name constants */
+    public static final String TITANIUM_SWORD = "titanium_sword";
 }

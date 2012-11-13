@@ -70,6 +70,44 @@ public class ConfigurationHandler {
             ItemIds.dnaCell = configuration
             		.getItem(Strings.dnaCell, ItemIds.dnaCell_Default)
             		.getInt(ItemIds.dnaCell_Default);
+            ItemIds.lithiumIngot = configuration
+            		.getItem(Strings.LITHIUM_INGOT, ItemIds.lithiumIngot_Default)
+            		.getInt(ItemIds.lithiumIngot_Default);
+            ItemIds.sodiumDust = configuration
+            		.getItem(Strings.SODIUM_INGOT, ItemIds.sodiumDust_Default)
+            		.getInt(ItemIds.sodiumDust_Default);
+            ItemIds.radiumIngot = configuration
+            		.getItem(Strings.RADIUM_INGOT, ItemIds.radiumIngot_Default)
+            		.getInt(ItemIds.radiumIngot_Default);
+            ItemIds.radiumIngot = configuration
+            		.getItem(Strings.RADIUM_DUST, ItemIds.radiumIngot_Default)
+            		.getInt(ItemIds.radiumIngot_Default);
+            ItemIds.technetiumIngot = configuration
+            		.getItem(Strings.TECHNETIUM_INGOT, ItemIds.technetiumIngot_Default)
+            		.getInt(ItemIds.technetiumIngot_Default);
+            ItemIds.titaniumIngot = configuration
+            		.getItem(Strings.TITANIUM_INGOT, ItemIds.titaniumIngot_Default)
+            		.getInt(ItemIds.titaniumIngot_Default);
+            ItemIds.titaniumIngot = configuration
+            		.getItem(Strings.TITANIUM_DUST, ItemIds.titaniumIngot_Default)
+            		.getInt(ItemIds.titaniumIngot_Default);
+            ItemIds.platinumIngot = configuration
+            		.getItem(Strings.PLATINUM_INGOT, ItemIds.platinumIngot_Default)
+            		.getInt(ItemIds.platinumIngot_Default);
+            ItemIds.platinumIngot = configuration
+            		.getItem(Strings.PLATINUM_DUST, ItemIds.platinumIngot_Default)
+            		.getInt(ItemIds.platinumIngot_Default);
+            ItemIds.mercuryIngot = configuration
+            		.getItem(Strings.MERCURY_INGOT, ItemIds.mercuryIngot_Default)
+            		.getInt(ItemIds.mercuryIngot_Default);
+            ItemIds.mercuryIngot = configuration
+            		.getItem(Strings.MERCURY_LIQUID, ItemIds.mercuryIngot_Default)
+            		.getInt(ItemIds.mercuryIngot_Default);
+            
+            /* Tool Configs */
+            ItemIds.titaniumSword = configuration
+            		.getItem(Strings.TITANIUM_SWORD, ItemIds.titaniumSword_Default)
+            		.getInt(ItemIds.titaniumSword_Default);
         }
         catch (Exception e) {
             FMLLog.log(Level.SEVERE, e, Reference.MOD_NAME + " has had a problem loading its configuration");
