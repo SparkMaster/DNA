@@ -17,6 +17,7 @@ public class ItemIds
 	public static int mercuryIngot_Default = 16011;
 	public static int mercuryLiquid_Default = 16012;
 	public static int titaniumSword_Default = 16013;
+	public static int titaniumPick_Default = 16014;
 	
 	
 	/* Current item ids */
@@ -34,5 +35,6 @@ public class ItemIds
 	public static int mercuryIngot;
 	public static int mercuryLiquid;
 	public static int titaniumSword;
+	public static int titaniumPick;
 	
 }

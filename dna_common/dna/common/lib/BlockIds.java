@@ -12,6 +12,7 @@ public class BlockIds
 	public static int titanium_Default = 2506;
 	public static int platinum_Default = 2507;
 	public static int mercury_Default = 2508;
+	public static int oreBlock_Default = 2509;
 	
 	/* Current block ids */
 	public static int dnaBlock;
@@ -23,4 +24,5 @@ public class BlockIds
 	public static int titanium;
 	public static int platinum;
 	public static int mercury;
+	public static int oreBlock;
 }

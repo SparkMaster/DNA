@@ -40,4 +40,5 @@ public class Strings
     
     /* Tool name constants */
     public static final String TITANIUM_SWORD = "titanium_sword";
+    public static final String TITANIUM_PICK = "titanium_pick";
 }

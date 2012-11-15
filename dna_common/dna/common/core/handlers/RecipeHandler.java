@@ -34,5 +34,6 @@ public class RecipeHandler
 		
 		//Tools
 		GameRegistry.addRecipe(new ItemStack(ModTools.titaniumSword), new Object[] {"X","X","S", 'X', ModItems.titaniumIngot, 'S', Item.stick});
+		GameRegistry.addRecipe(new ItemStack(ModTools.titaniumPick), new Object[] {"XXX", " S ", " S ", 'X', ModItems.titaniumIngot, 'S', Item.stick});
 	}
 }

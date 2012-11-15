@@ -108,6 +108,9 @@ public class ConfigurationHandler {
             ItemIds.titaniumSword = configuration
             		.getItem(Strings.TITANIUM_SWORD, ItemIds.titaniumSword_Default)
             		.getInt(ItemIds.titaniumSword_Default);
+            ItemIds.titaniumPick = configuration
+            		.getItem(Strings.TITANIUM_PICK, ItemIds.titaniumPick_Default)
+            		.getInt(ItemIds.titaniumPick_Default);
         }
         catch (Exception e) {
             FMLLog.log(Level.SEVERE, e, Reference.MOD_NAME + " has had a problem loading its configuration");

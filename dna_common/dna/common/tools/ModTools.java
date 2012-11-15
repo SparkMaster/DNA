@@ -9,12 +9,15 @@ import net.minecraft.src.Item;
 public class ModTools 
 {
 	public static Item titaniumSword;
+	public static Item titaniumPick;
 	
 	@Init
 	public static void init()
 	{
 		titaniumSword = new ItemTitaniumSword(ItemIds.titaniumSword, EnumHelper.titanium).setIconIndex(0).setItemName("titaniumSword");
+		titaniumPick = new ItemTitaniumPick(ItemIds.titaniumPick, EnumHelper.titanium).setIconIndex(1).setItemName("titaniumPick");
 		
 		LanguageRegistry.addName(titaniumSword, "Titanium Sword");
+		LanguageRegistry.addName(titaniumPick, "Titanium Pick");
 	}
 }
